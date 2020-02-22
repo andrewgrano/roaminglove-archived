@@ -71,9 +71,34 @@ Nicolas Gallagher and Jonathan Neal //necolas.github.com/normalize.css/
 
 @media (min-width: 992px) {
   .locationWidget {
+    width: 181px;
+    height: 171px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .locationWidget {
     width: 221px;
     height: 211px;
   }
 }
 
+@media (min-width: 768px) {
+  .indexLocations .locationWidget {
+    width: 210px;
+  }
+}
 
+@media (min-width: 992px) {
+  .indexLocations .locationWidget {
+    width: 290px;
+    height: 146px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .indexLocations .locationWidget {
+    width: 350px;
+    height: 178px;
+  }
+}
